@@ -1,5 +1,5 @@
 {
-  "name": "code-exercise",
+  "name": "rpn-code-test",
   "version": "1.0.0",
   "description": "an rpn calculator",
   "main": "index.js",
