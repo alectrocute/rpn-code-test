@@ -4,6 +4,7 @@ CLI RPN Calculator
 # Prerequestites
 
 * Node >= 12.0
+* Browser
 
 # Testing
 
