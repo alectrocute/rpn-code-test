@@ -17,7 +17,7 @@ node .
 
 # Testing
 
-Run default test with cases listed at [gist](https://gist.github.com/dennisbaskin/5979ff6a0d8c1e90b59d060155862767):
+Run default test with cases listed at gist:
 
 ```js
 yarn test
