@@ -1,7 +1,7 @@
 CLI RPN Calculator
 ==================
 
-# Prerequestites
+# Prerequisites
 
 * Node >= 12.0
 * Browser
