@@ -19,19 +19,21 @@ node .
   5
 ```
 
-# Use API
+# Headless usage
 
 ```js
-const { rpn } = require('.');
+const rpn = require('./index.js');
 rpn.push(5);
 const result = rpn.get();
-console.log(result);
+console.log(result); // 5
 rpn.clear();
+rpn.push("5 6 9 /")
+console.log(rpn.get()); // 0.66
 ```
 
 # Commentary
 
 
-* A high-level description of your solution
-* Reasoning behind your technical choices, including architectural
-* Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project
+* Built a basic CLI implementing an RPN calculator, including optional usage as headless API in Node or in the browser.
+* Kept everything as simple and modular as I could.
+* If I could do this all again, I'd think about validation more. I wouldn't be surprised if I missed quite a few input scenarios that break this calculator.

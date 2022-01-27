@@ -1,4 +1,4 @@
-const { test } = require("../lib/test.js");
+const test = require("../lib/test.js");
 
 test.run([[
     {
